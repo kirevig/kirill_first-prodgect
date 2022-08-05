@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+header{
+    background-color: yellow;
+    padding-bottom: 30px;
+}
+.centered{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.text{
+    color: white;
+    background-color: red;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sale{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cont_1{
+    font-weight: bolder;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.butn{
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+}
+.t_sh{
+    margin-right: 90px;
+    box-shadow: 3px 4px 10px;
+    padding: 20px;
+
+}
+.cont_2{
+    box-shadow: 3px 4px 10px;
+    padding: 20px;
+}
+.cont_3{
+    border: 2px solid green;
+}
+.cont_4{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 90px;
+    line-height: 45px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.wrapper_tsh{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.shirt{
+    margin-left: 50px;
+    box-shadow: 3px 4px 10px;
+    padding: 20px;
+}
+.cont_about{
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: white;
+    padding-left: 80px;
+    box-shadow: 10px 7px 30px 5px black;
+
+}
+.cont_5{
+    font-weight: bolder;
+}
+.cont_6{
+    padding: 10px;
+}
+.cont_7{
+   font-weight: bolder;
+}
+.wrapper_3{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.yellow{
+    background-color: yellow;
+    margin-top: 15px;
+
+}
+.cors{
+    padding: 20px;
+}
+.cont_8{
+    color: grey;
+    margin-top: 15px;
+}
+.wrapper_text{
+    justify-content: center;
+    display: flex;
+
+}
+.cont_9{
+    padding: 15px;
+    max-width: 600px;
+    min-width: 300px;
+    background-color: #f1f1f1;
+    box-shadow: 2px 1px 5px 0.5px black;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: none;
+}
+.cont_10{
+    margin-bottom: 20px;
+}
+hr{
+    box-shadow: 2px 2px 5px 0.5px black;
+    height: 0px ;
+    border: none;
+    max-width: 600px;
+    min-width: 330px;
+    margin-bottom: 20px;
+}
+.cont_button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.wrapper_but{
+    position: fixed ;
+    top: 80%;
+    left: 90%;
+    border: 2px solid black; 
+}
+.wrapper_butn{
+    background-color: yellow;
+    border: none;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 2%;
+}
+.anima{
+    animation-name: round;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-delay:0s;
+    background-color: yellow;
+}
+.cont_11{
+    color: white;
+}
+.cont_red{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 160px;
+    align-items: center;
+}
+.cont_12{
+color: white;
+}
+@keyframes round{
+    0%{
+        margin-left: 0%;
+        color: red;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        margin-left: 85%;
+        color: blue;
+    }
+}
